@@ -11,6 +11,9 @@ services:
       - mongodb-primary
       - mongodb-secondary
       - mongodb-arbiter
+      - billing
+      - auth
+      - rabbitmq
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
@@ -29,6 +32,7 @@ services:
       - mongodb-secondary
       - mongodb-arbiter
       - rabbitmq
+      - auth
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
