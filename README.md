@@ -1,10 +1,10 @@
 ## Description
-build ordering application using nest js microservice in apps you will find 3 services 
-1- authentication (auth) for protect api  
-2- billing service (just log every creation order)
-3- orders service (create order and list all orders)
+build ordering application using nest js microservice in apps you will find 3 services <br>
+1- authentication (auth) for protect api  <br>
+2- billing service (just log every creation order) <br>
+3- orders service (create order and list all orders) <br>
 
-using rabbitmq and docker and nest js microservice 
+using rabbitmq and docker and nest js microservice <br>
 ## Installation
 
 ```bash
